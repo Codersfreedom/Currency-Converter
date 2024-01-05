@@ -8,7 +8,7 @@ function App() {
   const [ammount, setAmmount] = useState();
   const [from, setFrom] = useState('usd')
   const [to, setTo] = useState('inr');
-  const [convertedAmmount, setconvertedAmmount] = useState(0);
+  const [convertedAmmount, setconvertedAmmount] = useState();
 
   const customCurrency = useCurrency(from);
   const options = Object.keys(customCurrency)
